@@ -12,7 +12,7 @@
 # dictionary	No	Keys: No	{ } or dict()	{'Jun':75, 'Jul':89}
 
 
-set_a = set(1,2,3,3,3,4) //sets do not store repeated values
+# set_a = set(1,2,3,3,3,4) //sets do not store repeated values
 
 # compund data structures - dictionary of dict, list of dicts etc
 
@@ -95,7 +95,6 @@ while sum(hand)  < 17:
 # continue skips one iteration of a loop
 
 
-
 # zip returns an iterator that combines multiple iterables into one sequence of tuples. Each tuple contains the elements in that position from all the iterables.
 letters = ['a', 'b', 'c']
 nums = [1, 2, 3]
@@ -109,6 +108,21 @@ letters = ['a', 'b', 'c', 'd', 'e']
 for i, letter in enumerate(letters):
     print(i, letter)
 
+
+#INSTEAD OF
+capitalized_cities = []
+for city in cities:
+    capitalized_cities.append(city.title())
+
+#REDUCED TO
+
+capitalized_cities = [city.title() for city in cities]
+
+
+#Conditionals in list comprehensions
+squares = [x**2 for x in range(9) if x % 2 == 0]
+
+squares = [x**2 if x % 2 == 0 else x + 3 for x in range(9)]
 
 
 
