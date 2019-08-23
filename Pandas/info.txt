@@ -1,0 +1,38 @@
+Introduction to Pandas
+Pandas is a package for data manipulation and analysis in Python. The name Pandas is derived from the econometrics term Panel Data. Pandas incorporates two additional data structures into Python, namely Pandas Series and Pandas DataFrame. These data structures allow us to work with labeled and relational data in an easy and intuitive manner. These lessons are intended as a basic overview of Pandas and introduces some of its most important features.
+
+In the following lessons you will learn:
+
+How to import Pandas
+How to create Pandas Series and DataFrames using various methods
+How to access and change elements in Series and DataFrames
+How to perform arithmetic operations on Series
+How to load data into a DataFrame
+How to deal with Not a Number (NaN) values
+The following lessons assume that you are already familiar with NumPy and have gone over the previous NumPy lessons. Therefore, to avoid being repetitive we will omit a lot of details already given in the NumPy lessons. Consequently, if you haven't seen the NumPy lessons we suggest you go over them first.
+
+Downloading Pandas
+Pandas is included with Anaconda. If you don't already have Anaconda installed on your computer, please refer to the Anaconda section to get clear instructions on how to install Anaconda on your PC or Mac.
+
+Pandas Versions
+As with many Python packages, Pandas is updated from time to time. The following lessons were created using Pandas version 0.22. You can check which version of Pandas you have by typing !conda list pandas in your Jupyter notebook or by typing conda list pandas in the Anaconda prompt. If you have another version of Pandas installed in your computer, you can update your version by typing conda install pandas=0.22 in the Anaconda prompt. As newer versions of Pandas are released, some functions may become obsolete or replaced, so make sure you have the correct Pandas version before running the code. This will guarantee your code will run smoothly.
+
+Pandas Documentation
+Pandas is remarkable data analysis library and it has many functions and features. In these introductory lessons we will only scratch the surface of what Pandas can do. If you want to learn more about Pandas, make sure you check out the Pandas Documentation:
+
+https://pandas.pydata.org/pandas-docs/stable/
+
+Why Use Pandas?
+The recent success of machine learning algorithms is partly due to the huge amounts of data that we have available to train our algorithms on. However, when it comes to data, quantity is not the only thing that matters, the quality of your data is just as important. It often happens that large datasets don’t come ready to be fed into your learning algorithms. More often than not, large datasets will often have missing values, outliers, incorrect values, etc… Having data with a lot of missing or bad values, for example, is not going to allow your machine learning algorithms to perform well. Therefore, one very important step in machine learning is to look at your data first and make sure it is well suited for your training algorithm by doing some basic data analysis. This is where Pandas come in. Pandas Series and DataFrames are designed for fast data analysis and manipulation, as well as being flexible and easy to use. Below are just a few features that makes Pandas an excellent package for data analysis:
+
+Allows the use of labels for rows and columns
+Can calculate rolling statistics on time series data
+Easy handling of NaN values
+Is able to load data of different formats into DataFrames
+Can join and merge different datasets together
+It integrates with NumPy and Matplotlib
+For these and other reasons, Pandas DataFrames have become one of the most commonly used Pandas object for data analysis in Python.
+
+
+
+
